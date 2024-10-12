@@ -10,12 +10,12 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ExchangeAPI {
-    private String apiKey;
-    private HttpClient client;
+    private final String apiKey;
+    private final HttpClient cliente;
 
     public ExchangeAPI(String apiKey) {
         this.apiKey = apiKey;
-        this.client = HttpClient.newHttpClient();
+        this.cliente = HttpClient.newHttpClient();
     }
 
     public double getConversionRate(Moneda fromMoneda, Moneda toMoneda) throws Exception {
@@ -24,7 +24,7 @@ public class ExchangeAPI {
                 .uri(URI.create(url))
                 .GET()
                 .build();
-        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+        HttpResponse<String> response = cliente.send(request, HttpResponse.BodyHandlers.ofString());
         JsonObject jsonResponse = JsonParser.parseString(response.body()).getAsJsonObject();
         JsonObject conversionRates = jsonResponse.getAsJsonObject("conversion_rates");
         return conversionRates.get(toMoneda.name()).getAsDouble();
