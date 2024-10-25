@@ -10,11 +10,13 @@ El proyecto consiste en la creación de una aplicación de Console que permita l
 
 * El sistema debe permitir el conversión de dolares a pesos chilenos y viceversa.
 * El sistema debe permitir el conversión de euros a pesos chilenos y viceversa.
+* El sistema debe permitir el conversión de pesos chilenos a pesos argentinos.
+* El sistema debe permitir el conversión de pesos chilenos a pesos mexicanos.
 
 ### 2.2. Herramientas
 
 * Java 21
-* Gson
+* Gson 2.11.0
 * GitHub
 * Intellij IDEA
 * Exchange Rate API
