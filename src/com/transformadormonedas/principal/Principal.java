@@ -13,13 +13,13 @@ public class Principal {
 
         while (!exit) {
             System.out.println("Menú de Conversión de Monedas");
-            System.out.println("1. Convertir USD a CLP");
-            System.out.println("2. Convertir EUR a CLP");
-            System.out.println("3. Convertir CLP a USD");
-            System.out.println("4. Convertir CLP a EUR");
-            System.out.println("5. Convertir CLP a ARS");
-            System.out.println("6. Convertir CLP a MXN");
-            System.out.println("7. Convertir CLP a PEN");
+            System.out.println("1. Dolar >>> Pesos Chilenos");
+            System.out.println("2. Euro >>> Pesos Chilenos");
+            System.out.println("3. Pesos Chilenos >>> Dolar");
+            System.out.println("4. Pesos Chilenos >>> Euro");
+            System.out.println("5. Pesos Chilenos >>> Pesos Argentinos");
+            System.out.println("6. Pesos Chilenos >>> Pesos Mexicanos");
+            System.out.println("7. Pesos Chilenos >>> Soles Peruanos");
             System.out.println("8. Salir");
             System.out.print("Elige una opción: ");
             int opcion = lectura.nextInt();
