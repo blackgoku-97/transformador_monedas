@@ -19,7 +19,8 @@ public class Principal {
             System.out.println("4. Convertir CLP a EUR");
             System.out.println("5. Convertir CLP a ARS");
             System.out.println("6. Convertir CLP a MXN");
-            System.out.println("7. Salir");
+            System.out.println("7. Convertir CLP a PEN");
+            System.out.println("8. Salir");
             System.out.print("Elige una opción: ");
             int opcion = lectura.nextInt();
 
@@ -62,6 +63,12 @@ public class Principal {
                         System.out.println(montoCLP4 + " pesos chilenos es igual a " + montoClp4FromMxn + " pesos mexicanos");
                         break;
                     case 7:
+                        System.out.print("Ingresa la cantidad de pesos chilenos: ");
+                        double montoCLP5 = lectura.nextDouble();
+                        double montoClp5FromPen = exchangeAPI.convertir(Moneda.PEN, Moneda.CLP, montoCLP5);
+                        System.out.println(montoCLP5 + " pesos chilenos es igual a " + montoClp5FromPen + " soles peruanos");
+                        break;
+                    case 8:
                         exit = true;
                         System.out.println("Saliendo del programa...");
                         break;
