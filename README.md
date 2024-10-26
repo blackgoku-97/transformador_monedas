@@ -4,7 +4,7 @@ El proyecto consiste en la creación de una aplicación de consola que permite l
 
 ## 1. 🪙 **Monedas Soportadas**
 
-El conversor permite la conversión entre las siguientes monedas:
+El transformador permite la conversión entre las siguientes monedas:
 
 - 🇦🇷 **ARS** - Peso argentino
 - 🇨🇱 **CLP** - Peso chileno
@@ -47,6 +47,14 @@ Siga estos pasos para usar el programa:
   cd transformador_monedas
   git clone https://github.com/blackgoku-97/transformador_monedas.git 
    ```
+
+2. Vaya a esta pagina https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0 baja la libreria tiene que hacer click donde dice .jar le prenguntara donde descargar por defecto en descargas/downloads
+   (Depende el idioma de su equipo).
+
+3. Abra el proyecto con el IDE ahora donde hay : se lista la barra en file haces click project structure se abre unas opciones vas donde dice modules busca la opcion +
+   Elija la opcion 1 JARs of directory busca la libreria para importarla despues click apply y ok sales de las opciones.
+
+4. Ahora revisa que este todo bien y ejecuta.
 
 ## 3. **Licencia** 📝
 
