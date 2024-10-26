@@ -2,7 +2,7 @@
 
 ## 1. Introducción
 
-El proyecto consiste en la creación de una aplicación de Console que permita la gestión de monedas.
+El proyecto consiste en la creación de una aplicación de consola que permite la gestión de monedas.
 
 ## 🪙 **Monedas Soportadas**
 
