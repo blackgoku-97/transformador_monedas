@@ -9,7 +9,7 @@ El transformador permite la conversión entre las siguientes monedas:
 - 🇦🇷 **ARS** - Peso argentino
 - 🇨🇱 **CLP** - Peso chileno
 - 🇺🇸 **USD** - Dólar estadounidense
-- 🇪🇨 **EUR** - Euro
+- 🇪🇸 **EUR** - Euro
 - 🇲🇽 **MXN** - Peso mexicano
 
 ## 2. **Requisitos**
