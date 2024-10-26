@@ -26,7 +26,7 @@ El transformador permite la conversión entre las siguientes monedas:
 Antes de proceder, asegurate de tener estos programas en el equipo:
 
 * ☕ **JDK 21**
-* 🖥️ **IntelliJ IDEA (Puede usar cualquier IDE de Java o editor de programación)
+* 🖥️ **IntelliJ IDEA** (Puede usar cualquier IDE de Java o editor de programación)
 * 🌐 **Conexión a Internet** (Para obtener las tasas de cambio en tiempo real)
 
 ### 2.3. **Herramientas** 🛠️
@@ -48,17 +48,17 @@ Siga estos pasos para usar el programa:
   git clone https://github.com/blackgoku-97/transformador_monedas.git 
    ```
 
-2. Vaya a esta pagina https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0 baja la libreria tiene que hacer click donde dice .jar le prenguntara donde descargar por defecto en descargas/downloads
+2. Vaya a esta pagina https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0 baja la libreria tiene que hacer click donde dice **.jar** le preguntara donde descargar por defecto en **descargas/downloads**
    (Depende el idioma de su equipo).
 
-3. Abra el proyecto con el IDE ahora donde hay : se lista la barra en file haces click project structure se abre unas opciones vas donde dice modules busca la opcion +
-   Elija la opcion 1 JARs of directory busca la libreria para importarla despues click apply y ok sales de las opciones.
+3. Abra el proyecto con el IDE ahora donde hay 3 barras como esta **-** ordenadas de arriba hasta abajo se abre **.** en el mismo orden. Se lista la barra en **File** haces click en **Project Structure** se abre unas opciones vas donde dice **Modules** busca la opcion +
+   Elija la opcion 1 **JARs of directory** busca la libreria para importarla despues haces click en apply y ok dejas de las opciones.
 
 4. Ahora revisa que este todo bien y ejecuta.
 
 ## 3. 🔄 **Funcionamiento**
 
-La aplicación solicita una cantidad para el cambio de moneda. Utiliza la API **ExchangeRate-API** para obtener la tasa de conversión a tiempo reañ, con la ayuda de **Gson**, procesa la información en formato JSON. La transformación se realiza de manera eficiente, brindando resultados precisos y rápidos.
+La aplicación solicita una cantidad para el cambio de moneda. Utiliza la API **ExchangeRate-API** para obtener la tasa de conversión a tiempo real, con la ayuda de **Gson**, procesa la información en formato JSON. La transformación se realiza de manera eficiente, brindando resultados precisos y rápidos.
 
 ## 4. **Licencia** 📝
 
