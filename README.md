@@ -2,7 +2,7 @@
 
 El proyecto consiste en la creación de una aplicación de consola que permite la gestión de monedas.
 
-## 1. 🪙 **Monedas Soportadas**
+## 1. **Monedas Soportadas** 🪙
 
 El transformador permite la conversión entre las siguientes monedas:
 
@@ -12,9 +12,9 @@ El transformador permite la conversión entre las siguientes monedas:
 - 🇪🇸 **EUR** - Euro
 - 🇲🇽 **MXN** - Peso mexicano
 
-## 2. **Requisitos**
+## 2. **Requisitos** 📉
 
-### 2.1. **Requisitos funcionales**
+### 2.1. **Requisitos funcionales** 📈 	
 
 * El sistema debe permitir la conversión de dolares a pesos chilenos y viceversa. 💱
 * El sistema debe permitir la conversión de euros a pesos chilenos y viceversa. 💱
