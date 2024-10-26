@@ -48,13 +48,29 @@ Siga estos pasos para usar el programa:
   git clone https://github.com/blackgoku-97/transformador_monedas.git 
    ```
 
-2. Vaya a esta pagina https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0 baja la libreria tiene que hacer click donde dice **.jar** le preguntara donde descargar por defecto en **descargas/downloads**
-   (Depende el idioma de su equipo).
+2. Descarga la biblioteca Gson:
 
-3. Abra el proyecto con el IDE ahora donde hay 3 barras como esta **-** ordenadas de arriba hasta abajo se abren 3 **.** en el mismo orden. Se lista la barra en **File** haces click en **Project Structure** se abre unas opciones vas donde dice **Modules** busca la opcion +
-   Elija la opcion 1 **JARs of directory** busca la libreria para importarla despues haces click en apply y ok dejas de las opciones.
+* Ve a Maven Repository - Gson - Gson 2.11.0.
 
-4. Ahora revisa que este todo bien y ejecuta.
+* Haz clic en el enlace .jar para descargar la biblioteca. El archivo se descargará en la carpeta predeterminada de descargas/downloads depende el idioma de tu equipo.
+
+3. Importa la biblioteca Gson en tu IDE:
+
+* Abre el proyecto con tu IDE.
+
+* Ve a la opción File > Project Structure.
+
+* En el panel Modules, selecciona el signo + y elige JARs or directories.
+
+* Busca la biblioteca Gson descargada y selecciónala para importarla.
+
+* Haz clic en Apply y OK para confirmar.
+
+4. Verifica la configuración y ejecuta el proyecto:
+
+* Asegúrate de que todas las configuraciones estén correctas.
+
+* Ejecuta el proyecto desde tu IDE.
 
 ## 3. 🔄 **Funcionamiento**
 
