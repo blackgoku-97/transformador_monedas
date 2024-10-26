@@ -51,7 +51,7 @@ Siga estos pasos para usar el programa:
 2. Vaya a esta pagina https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0 baja la libreria tiene que hacer click donde dice **.jar** le preguntara donde descargar por defecto en **descargas/downloads**
    (Depende el idioma de su equipo).
 
-3. Abra el proyecto con el IDE ahora donde hay 3 barras como esta **-** ordenadas de arriba hasta abajo se abre **.** en el mismo orden. Se lista la barra en **File** haces click en **Project Structure** se abre unas opciones vas donde dice **Modules** busca la opcion +
+3. Abra el proyecto con el IDE ahora donde hay 3 barras como esta **-** ordenadas de arriba hasta abajo se abren 3 **.** en el mismo orden. Se lista la barra en **File** haces click en **Project Structure** se abre unas opciones vas donde dice **Modules** busca la opcion +
    Elija la opcion 1 **JARs of directory** busca la libreria para importarla despues haces click en apply y ok dejas de las opciones.
 
 4. Ahora revisa que este todo bien y ejecuta.
