@@ -1,10 +1,8 @@
 # Proyecto de Transformador de Monedas
 
-## 1. Introducción
-
 El proyecto consiste en la creación de una aplicación de consola que permite la gestión de monedas.
 
-## 🪙 **Monedas Soportadas**
+## 1. 🪙 **Monedas Soportadas**
 
 El conversor permite la conversión entre las siguientes monedas:
 
@@ -38,7 +36,17 @@ Antes de proceder, asegurate de tener estos programas en el equipo:
 * GitHub: Repositorio de GitHub usado para el control de versiones.
 * Exchange Rate API: API usada para obtener las tasas de cambio en tiempo real.
 
-### Función de la Aplicación
+### 2.3. Función de la Aplicación
+
+Siga estos pasos para usar el programa:
+
+1. Clona el repositorio y navega al directorio del proyecto:
+
+  ```bash
+  mkdir transformador_monedas
+  cd transformador_monedas
+  git clone https://github.com/blackgoku-97/transformador_monedas.git 
+   ```
 
 ## 3. Ejecución del Programa
 
