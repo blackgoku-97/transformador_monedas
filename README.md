@@ -56,6 +56,10 @@ Siga estos pasos para usar el programa:
 
 4. Ahora revisa que este todo bien y ejecuta.
 
-## 3. **Licencia** 📝
+## 3. 🔄 **Funcionamiento**
+
+La aplicación solicita una cantidad para el cambio de moneda. Utiliza la API **ExchangeRate-API** para obtener la tasa de conversión a tiempo reañ, con la ayuda de **Gson**, procesa la información en formato JSON. La transformación se realiza de manera eficiente, brindando resultados precisos y rápidos.
+
+## 4. **Licencia** 📝
 
 Este proyecto está licenciado bajo los términos de la [MIT License](LICENSE).
