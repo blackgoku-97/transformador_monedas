@@ -18,16 +18,18 @@ El conversor permite la conversión entre las siguientes monedas:
 
 ### 2.1. Requisitos funcionales
 
-* El sistema debe permitir el conversión de dolares a pesos chilenos y viceversa.
-* El sistema debe permitir el conversión de euros a pesos chilenos y viceversa.
-* El sistema debe permitir el conversión de pesos chilenos a pesos argentinos.
-* El sistema debe permitir el conversión de pesos chilenos a pesos mexicanos.
+* El sistema debe permitir la conversión de dolares a pesos chilenos y viceversa.
+* El sistema debe permitir la conversión de euros a pesos chilenos y viceversa.
+* El sistema debe permitir la conversión de pesos chilenos a pesos argentinos.
+* El sistema debe permitir la conversión de pesos chilenos a pesos mexicanos.
 
-### 2.1. Requisitos Previos
+### 2.1. Requisitos Previos ⚙️
 
-* JDK 21
-* Intellij IDEA (Puede usar cualquier IDE o editor de programación).
-* Conexión a internet (Para obtener las tasas de cambio en tiempo real).
+Antes de proceder, asegurate de tener estos programas en el equipo:
+
+- ☕ **JDK 21**
+- 🖥️ **IntelliJ IDEA (Puede usar cualquier IDE de Java o editor de programación)
+- 🌐 **Conexión a Internet** (Para obtener las tasas de cambio en tiempo real)
 
 ### 2.2. Herramientas 🛠️
 
@@ -36,6 +38,8 @@ El conversor permite la conversión entre las siguientes monedas:
 * GitHub: Repositorio de GitHub usado para el control de versiones.
 * Exchange Rate API: API usada para obtener las tasas de cambio en tiempo real.
 
-## 3. Ejecución
+### Función de la Aplicación
+
+## 3. Ejecución del Programa
 
 Abrir el proyecto en IntelliJ IDEA y ejecutarlo.
