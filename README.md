@@ -11,6 +11,7 @@ El transformador permite la conversión entre las siguientes monedas:
 - 🇺🇸 **USD** - Dólar estadounidense
 - 🇪🇸 **EUR** - Euro
 - 🇲🇽 **MXN** - Peso mexicano
+- 🇵🇪 **PEN** - Soles peruanos
 
 ## 2. **Requisitos** 📉
 
@@ -20,6 +21,7 @@ El transformador permite la conversión entre las siguientes monedas:
 * El sistema debe permitir la conversión de euros a pesos chilenos y viceversa. 💱
 * El sistema debe permitir la conversión de pesos chilenos a pesos argentinos. 💱
 * El sistema debe permitir la conversión de pesos chilenos a pesos mexicanos. 💱
+* El sistema debe permitir la conversión de pesos chilenos a soles peruanos. 💱
 
 ### 2.2. **Requisitos Previos** ⚙️
 
