@@ -4,6 +4,8 @@ import com.transformadormonedas.api.ExchangeAPI;
 import com.transformadormonedas.modelos.Moneda;
 
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Principal {
     public static void main(String[] args) {
@@ -76,7 +78,7 @@ public class Principal {
                         System.out.println("Opción no válida. Por favor, intenta de nuevo.");
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+                Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, e);
             }
         }
         lectura.close();

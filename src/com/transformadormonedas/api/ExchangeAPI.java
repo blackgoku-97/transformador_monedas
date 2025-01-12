@@ -1,13 +1,11 @@
 package com.transformadormonedas.api;
 
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.google.gson.JsonObject;
 import com.transformadormonedas.modelos.Moneda;
 
 import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
+import java.net.http.*;
 
 public class ExchangeAPI {
     private final String apiKey;

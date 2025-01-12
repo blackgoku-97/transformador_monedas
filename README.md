@@ -66,6 +66,8 @@ Siga estos pasos para usar el programa:
 
 * Busca la biblioteca Gson descargada y selecciónala para importarla.
 
+* Marca el cubo de verificación de la biblioteca Gson.
+
 * Haz clic en Apply y OK para confirmar.
 
 4. Verifica la configuración y ejecuta el proyecto:
