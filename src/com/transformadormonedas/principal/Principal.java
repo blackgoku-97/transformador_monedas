@@ -38,7 +38,7 @@ public class Principal {
                         System.out.print("Ingresa la cantidad de euros: ");
                         double montoEUR = lectura.nextDouble();
                         double montoClpFromEur = exchangeAPI.convertir(Moneda.EUR, Moneda.CLP, montoEUR);
-                        System.out.println(montoEUR + " euro es igual a " + montoClpFromEur + " Pesos Chilenoz");
+                        System.out.println(montoEUR + " euro es igual a " + montoClpFromEur + " Pesos Chilenos");
                         break;
                     case 3:
                         System.out.print("Ingresa la cantidad de pesos chilenos: ");
