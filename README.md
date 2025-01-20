@@ -1,6 +1,6 @@
 # **Proyecto de Transformador de Monedas**
 
-El proyecto consiste en la creación de una aplicación de consola que permite la gestión de monedas.
+El proyecto es para ChallengeOne de Alura que consiste en un conversor de monedas que permita la gestión de monedas.
 
 ## 1. **Monedas Soportadas** 🪙
 
@@ -17,7 +17,7 @@ El transformador permite la conversión entre las siguientes monedas:
 
 ### 2.1. **Requisitos funcionales** 📈 	
 
-* El sistema debe permitir la conversión de dolares a pesos chilenos y viceversa. 💱
+* El sistema debe permitir la conversión de dólares a pesos chilenos y viceversa. 💱
 * El sistema debe permitir la conversión de euros a pesos chilenos y viceversa. 💱
 * El sistema debe permitir la conversión de pesos chilenos a pesos argentinos. 💱
 * El sistema debe permitir la conversión de pesos chilenos a pesos mexicanos. 💱
@@ -25,7 +25,7 @@ El transformador permite la conversión entre las siguientes monedas:
 
 ### 2.2. **Requisitos Previos** ⚙️
 
-Antes de proceder, asegurate de tener estos programas en el equipo:
+Antes de proceder, asegúrate de tener estos programas en el equipo:
 
 * ☕ **JDK 21**
 * 🖥️ **IntelliJ IDEA** (Puede usar cualquier IDE de Java o editor de programación)
@@ -42,7 +42,7 @@ Antes de proceder, asegurate de tener estos programas en el equipo:
 
 Siga estos pasos para usar el programa:
 
-1. Clona el repositorio y navega al directorio del proyecto:
+2.4.1. Clona el repositorio y navega al directorio del proyecto:
 
   ```bash
   mkdir transformador_monedas
@@ -50,19 +50,19 @@ Siga estos pasos para usar el programa:
   git clone https://github.com/blackgoku-97/transformador_monedas.git 
    ```
 
-2. Descarga la biblioteca Gson:
+2.4.2. Descarga la biblioteca Gson:
 
 * Ve a Maven Repository - Gson - Gson 2.11.0.
 
 * Haz clic en el enlace .jar para descargar la biblioteca. El archivo se descargará en la carpeta predeterminada de descargas/downloads depende el idioma de tu equipo.
 
-3. Importa la biblioteca Gson en tu IDE:
+2.4.3. Importa la biblioteca Gson en tu IDE:
 
 * Abre el proyecto con tu IDE.
 
 * Ve a la opción File > Project Structure.
 
-* En el panel Modules, selecciona el signo + y elige JARs or directories.
+* En el panel Modules, selecciona el signo + y elige JAR or directories.
 
 * Busca la biblioteca Gson descargada y selecciónala para importarla.
 
@@ -70,7 +70,7 @@ Siga estos pasos para usar el programa:
 
 * Haz clic en Apply y OK para confirmar.
 
-4. Verifica la configuración y ejecuta el proyecto:
+2.4.4. Verifica la configuración y ejecuta el proyecto:
 
 * Asegúrate de que todas las configuraciones estén correctas.
 
